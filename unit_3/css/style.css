@@ -18,6 +18,12 @@ h3{
 	text-transform: bold;
 }
 
+ul {
+
+	display: inline-block;
+	text-align: left;
+}
+
 #slogan {
 	font-style: italic;
 	font-size: 16px;
