@@ -1,0 +1,31 @@
+body {
+	background-image: url("gwr_background.jpg");
+	color: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+}
+
+h1{
+
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: #FF0000;
+	text-align: center;
+	text-transform: bold;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 16px;
+	text-transform: uppercase, bold;
+	color: #FFBE88;
+
+}
+
+#secondary {
+	color: green;
+
+}
