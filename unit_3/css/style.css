@@ -1,19 +1,19 @@
 body {
-	background-image: url("gwr_background.jpg");
+	background: url("images/gwr_background.jpg");
+	background-size: cover;
 	color: #FFFFFF;
 	font-family: Helvetica, sans-serif;
+	text-align: center;
 }
 
 h1{
 
 	text-decoration: underline;
 	font-weight: bold;
-	text-align: center;
 }
 
 h3{
 	color: #FF0000;
-	text-align: center;
 	text-transform: bold;
 }
 
