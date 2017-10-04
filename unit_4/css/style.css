@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+
+body {
+	background-image: url("images/gwr_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	text-align: center;
+	color: #454545;
+
+}
+
+nav {
+	background-color: #454545;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #ffffff;
+	padding: 1.5em;
+
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 2em;
+}
+
+
+h1{
+	font-family: 'Sonsie One', cursive;
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #44117D;
+}
+
+hr{
+	width: 30em;
+}
+
+h3{
+	font-size: 1.75em;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-transform: bold;
+	color: #D44200;
+	
+}
+
+
+p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+}
+
+ul {
+	font-family: 'Cabin', sans-serif;
+	text-align: left;	
+	display: inline-block;
+}
+
+
+footer {
+	background-color: #454545;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #ffffff;
+	padding: 1em;
+
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #D44200;
+	margin: .2em;
+}
+
+.templatedescription {
+	width: 40em;
+	margin: 2em auto;
+
+}
+
+
+
+#slogan {
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #44117D;
+
+}
