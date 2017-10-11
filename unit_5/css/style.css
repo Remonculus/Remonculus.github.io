@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	background-image: url("images/gwr_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	text-align: center;
+	color: #454545;
+}
+
+nav {
+	background-color: #E8C66A;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 2em;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1{
+	font-family: 'Sonsie One', cursive;
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #44117D;
+	border-bottom: 5px;
+}
+
+hr{
+	width: 30em;
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 1.75em;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-transform: bold;
+	color: #D44200;
+	
+}
+
+
+p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+	margin: 1em;
+}
+
+ul {
+	font-family: 'Cabin', sans-serif;
+	text-align: left;	
+	display: inline-block;
+}
+
+
+footer {
+	background-color: #FF957E;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #D44200;
+	margin: .2em;
+}
+
+.templatedescription {
+	width: 40em;
+	margin: 2em auto;
+
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #44117D;
+
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
