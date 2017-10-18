@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("../images/gwr_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 16px;
+	text-align: center;
+	color: #454545;
+}
+
+header {
+	background-color: #6B4D9C;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+nav {
+	background-color: #1c1c1c;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #B5B5B5;
+    padding: 15px 20px 10px;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B5B5B5;
+	margin: 2em;
+}
+
+div {
+    background-color: #B5B5B5;
+    padding: 20px;
+}
+
+h1{
+	font-family: 'Sonsie One', cursive;
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #6B4D9C;
+	border-bottom: 5px;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+/*hr{
+	width: 30em;
+	margin: 0 auto;
+}*/
+
+h3{
+	font-size: 1.75em;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-transform: bold;
+	color: #6B4D9C;
+	
+}
+
+p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+}
+
+ul {
+	font-family: 'Cabin', sans-serif;
+	text-align: left;	
+	display: inline-block;
+}
+
+footer {
+	background-color: #1c1c1c;
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #B5B5B5;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #815DBD;
+	margin: .2em;
+}
+
+.TemplateTown_Header {
+	display: inline-block;
+	font-style: italic;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Sonsie One', cursive;
+}
+
+.slogan {
+	font-size: 1.5em;
+	font-weight: 800;
+	color: #B5B5B5;
+	background-color: rgba(107,77,156,.9);
+	font-style: italic;
+}
+
+.sitedescription {
+	background-image: url("../images/email_main.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.intromessage {
+	width: 50em;
+	margin: 2em auto;
+	background-color: rgba(107,77,156,.8);
+	color: #B5B5B5;
+	padding: 20px;
+}
+
+.searchoption {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#intro {
+	background-image: url("../images/cityscape.png");
+	height: 10em;
+}
+
+#choose {
+	padding-bottom: 20px;
+}
+
+#search {
+    padding-top: 20px;
+}
+
+/*#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
