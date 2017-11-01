@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(230,232,244,.75);	
+	font-size: 16px;
+	color: #323545;
+	text-align: center;
+}
+
+nav {
+	background-color: #323545;
+	font-family: 'Noto+Sans', sans-serif;
+	text-transform: uppercase;
+	color: #B1BBEC;
+    padding: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #B1BBEC;
+	padding: 1em;
+}
+
+nav a:hover {
+	background-color: #536ADE;
+	color: #E6E8F4;
+}
+
+h1 {
+	font-family: 'Bungee', sans-Serif;
+	font-size: 3.7em;
+	text-transform: uppercase;
+	color: #3C457D;
+	padding: .4em 0 0;
+}
+
+hr {
+	width: 40em;
+	margin: auto;
+	padding: .05em;
+	background-color: #3C457D;
+	border: none;
+}
+
+p {
+	font-family: 'Noto+Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	padding: .8em;
+}
+
+ul {
+	font-family: 'Noto+Sans', sans-serif;
+	text-align: left;	
+	display: inline-block;
+}
+
+h2 {
+	font-size: 1.7em;
+	margin: 0 auto 1em;
+	font-family: 'Noto+Sans', sans-serif;	
+}
+
+img {
+	width: 85%;
+}
+
+h3{
+	font-size: 1.5em;
+	font-family: 'Noto+Sans', sans-serif;
+	text-transform: bold;
+	color: #3C457D;
+	margin: .5em;
+}
+
+input[type=text] {
+    width: 66.6667%;
+    padding: .8em 1.2em;
+    margin: .5em 0;
+    box-sizing: border-box;
+    border: .125em solid #536ADE;
+    border-radius: .25em;
+    font-size: 1em;
+}    
+
+input[type=text]:focus {
+    background-color: #B1BBEC;
+}
+
+input[type=submit]  {
+    background-color: #536ADE;
+    border: none;
+    color: #E6E8F4;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: .75em;
+    margin: .25em .125em;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #323545;
+    border: none;
+    color: #E6E8F4;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: .75em;
+    margin: .25em .125em;
+    cursor: pointer;
+}
+
+footer {
+	background-color: #323545;
+	font-family: 'Noto+Sans', sans-serif;
+	color: #B1BBEC;
+	padding: 1em;
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B1BBEC;
+	margin: .2em;
+}
+
+footer a:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #536ADE;
+	margin: .2em;
+}
+
+.slogan {
+	font-size: 1.5em;
+	font-weight: 800;
+	font-style: italic;	
+	color: #3C457D;
+	padding: .5em 0 1.3em;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.searchoption {
+    float: left;
+    padding: 3%;
+    width: 29.3333%;
+    margin: 1%;
+}
+
+.searchoption hr {
+	width: 50%;
+	margin: auto;
+	padding: .05em;
+	background-color: #3C457D;
+	border: none;
+}
+
+.searchoption a {
+	text-decoration: none;
+	background-color: #536ADE;
+	color: #E6E8F4;
+	padding: 1em;
+	font-size: .75em;
+}
+
+.searchoption a:hover {
+	text-decoration: none;
+	background-color: #323545;
+	color: #E6E8F4;
+	padding: 1em;
+}
+
+.searchimage {
+	min-height: 11em;
+	vertical-align: center;
+}
+
+#mobile {
+	display: none;
+}
+
+#intro {
+	background-image: url("../images/townbackground.jpg");	
+}
+
+#intromessage {
+	background-color: rgba(83,106,222,.85);
+	color: #E6E8F4;
+	padding: 2em;
+}
+
+#wrapper {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#choose {
+	padding: 1em;
+	color: #3C457D;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1280px) {	
+	#wrapper {
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	nav {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+	img {
+		width: 60%;
+	}
+	hr {
+		width: 60%;
+	}
+	.searchoption:nth-of-type(1) {
+		width: 100%;
+		float: none;
+	}
+	.searchoption {
+		width: 47%;
+		margin: 1%;
+		padding: 3%;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	nav {
+		padding: 0;
+		font-size: 1.5em;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	nav a {
+		width: 100%;
+		padding: .5em;
+		display: none;
+		font-size: 1.3em;
+	}
+	nav:hover a {
+		display: block;
+	}
+	h2, .searchimage, .searchoption h3, .searchoption hr, .searchoption p:nth-of-type(1), #intro {
+		display: none;
+	}
+	p {
+		font-size: 1.3em;
+	}
+	input[type=text] {
+	    width: 90%;
+	} 
+	footer p {
+		font-size: 1em;
+	}
+	.slogan {
+		font-size: 1em;
+
+	}
+	.searchoption {
+		width: 100%;
+	}	
+	.searchoption p {
+		width: 100%;
+		margin: auto;
+		padding: 0;
+		font-size: 1.5em;
+	}			
+	#mobile {
+		display: block;
+	}
+}
+
+
