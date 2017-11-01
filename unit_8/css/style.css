@@ -222,7 +222,11 @@ footer a:hover {
 	#wrapper {
 		width: 96%;
 	}
+	input[type=text] {
+		width: 60%;
+	}	
 }
+
 
 @media screen and (max-width: 1090px) {
 	nav {
