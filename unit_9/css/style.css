@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(230,232,244,.75);	
+	color: #323545;
+	text-align: center;	
+	font-size: 16px;
+}
+
+nav {
+	background-color: #323545;
+	font-family: 'Noto+Sans', sans-serif;
+	text-transform: uppercase;
+    padding: 1em;
+}
+
+nav a {
+	color: #B1BBEC;	
+	text-decoration: none;
+	padding: 1em;
+}
+
+nav a:hover {
+	background-color: #536ADE;
+	color: #E6E8F4;
+}
+
+h1 {
+	color: #3C457D;	
+	font-family: 'Bungee', sans-Serif;
+	font-size: 3.7em;
+	text-transform: uppercase;
+	padding: .4em 0 0;
+}
+
+hr {
+	background-color: #3C457D;
+	width: 40em;
+	padding: .05em;
+	border: none;
+	margin: auto;
+}
+
+p {
+	font-family: 'Noto+Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.35em;
+	padding: .8em;
+}
+
+ul {
+	font-family: 'Noto+Sans', sans-serif;
+	text-align: left;	
+	display: inline-block;
+}
+
+h2 {
+	font-size: 1.7em;
+	margin: 0 auto;
+	font-family: 'Noto+Sans', sans-serif;	
+}
+
+img {
+	width: 100%;
+}
+
+h3{
+	font-size: 1.5em;
+	font-family: 'Noto+Sans', sans-serif;
+	color: #3C457D;
+	margin: .75em;
+}
+
+input[type=text] {
+    width: 64.6667%;
+    padding: .8em 1.2em;
+    margin: 0;
+    box-sizing: border-box;
+    border: .125em solid #536ADE;
+    border-radius: .25em;
+    font-size: 1em;
+}    
+
+input[type=text]:focus {
+    background-color: #B1BBEC;
+}
+
+input[type=submit]  {
+    background-color: #536ADE;
+    border: none;
+    color: #E6E8F4;
+    padding: 1em 2em;
+    margin: .25em .125em;
+    text-decoration: none;
+    font-size: .9em;
+    cursor: pointer;
+	font-family: 'Noto+Sans', sans-serif;    
+}
+
+input[type=submit]:hover {
+    background-color: #323545;
+}
+
+footer {
+	background-color: #323545;
+	font-family: 'Noto+Sans', sans-serif;
+	color: #B1BBEC;
+	padding: 1em;
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B1BBEC;
+	margin: .2em;
+}
+
+footer a:hover {
+	color: #536ADE;
+}
+
+.slogan {
+	font-size: 1.5em;
+	font-weight: 800;
+	font-style: italic;	
+	color: #3C457D;
+	padding: .5em 0 1.3em;
+}
+
+.wrapper {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.searchoption {
+    float: left;
+    width: 29.3333%;
+    margin: 2%;
+    min-height: 30em;
+    position: relative;
+}
+
+.searchoption hr {
+	width: 50%;
+	margin: auto;
+	padding: .05em;
+	background-color: #3C457D;
+	border: none;
+}
+
+.searchoption a {
+    background-color: #536ADE;
+    border: none;
+    color: #E6E8F4;
+    padding: 1em 2em;
+    margin: 0 .125em;
+    text-decoration: none;
+    font-size: .9em;
+	position: absolute;
+	bottom: 2.05em;
+	display: block;
+	font-family: 'Noto+Sans', sans-serif;	
+}
+
+.searchoption a:hover {
+	background-color: #323545;
+}
+
+.searchoption form {
+	position: absolute;
+	bottom: 1.5em;
+}
+
+#intro {
+	background-image: url("../images/townbackground.jpg");	
+}
+
+#intromessage {
+	background-color: rgba(83,106,222,.85);
+	color: #E6E8F4;
+	padding: 2em;
+}
+
+#choose {
+	padding: 1em;
+	color: #3C457D;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1280px) {	
+	input[type=text] {
+		width: 60%;
+	}
+	.searchoption {
+		min-height: 28em;
+	}
+	.wrapper {
+		width: 96%;
+	}
+	
+}
+
+@media screen and (max-width: 1090px) {
+	nav {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+	img {
+		width: 50%;
+	}
+	hr {
+		width: 60%;
+	}
+	.searchoption:nth-of-type(1) {
+		width: 96%;
+		float: none;
+		min-height: 34em;		
+	}
+	.searchoption:nth-of-type(1) form {
+		width: 100%;
+	}
+	.searchoption {
+		width: 46%;
+		margin: 2%;
+		min-height: 25em;		
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.searchoption:nth-of-type(1) {
+
+		min-height: 31em;		
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.searchoption:nth-of-type(1) {
+
+		min-height: 29em;		
+	}
+}
+
+@media screen and (max-width: 720px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	p {
+		font-size: 1.3em;
+	}
+
+	input[type=text] {
+	    width: 90%;
+	} 
+
+	footer p {
+		font-size: 1em;
+	}
+
+	.slogan {
+		font-size: 1em;
+	}
+
+	.searchoption {
+		width: 100%;
+		min-height: 27em;		
+	}
+
+	.searchoption p {
+		width: 100%;
+		margin: auto;
+		padding: 1em;
+		font-size: 1.25em;		
+	}
+}
+
+@media screen and (max-width: 570px) {
+	nav {
+		font-size: 1em;
+	}
+
+	.searchoption {
+		min-height: 26em;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	nav {
+		font-size: .75em;
+	}
+	
+	.searchoption:nth-of-type(1) {
+
+		min-height: 26em;		
+	}
+
+	.searchoption {
+		min-height: 25em;
+	}
+}
+
